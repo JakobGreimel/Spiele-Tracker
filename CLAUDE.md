@@ -9,7 +9,7 @@
 ## Technik
 - Reines HTML/CSS/JavaScript, **kein Framework, kein Build für die App selbst**.
 - Firebase JS SDK **12.19.0** (Auth E-Mail/Passwort + Firestore), lokal gebündelt in `vendor/firebase.js` (esbuild, ESM, minifiziert). Kein CDN.
-- Hosting: GitHub Pages (Repo `JGHosting/Spiele-Tracker`, Branch `main`, root). Live: https://jghosting.github.io/Spiele-Tracker/
+- Hosting: GitHub Pages (Repo `JakobGreimel/Spiele-Tracker`, bis 11/2026 `JGHosting`, Branch `main`, root). Live: https://jakobgreimel.github.io/Spiele-Tracker/ (alte Adresse `jghosting.github.io` liefert 404)
 - Firebase-Projekt `spieletracker-app` (Spark-Tarif). Config in `config.js` (nicht geheim, identifiziert nur das Projekt).
 - Zielplattform: iPhone-PWA (Hauptziel); laut README auch Android/Chrome.
 - UI-Sprache: Deutsch.
@@ -81,7 +81,7 @@ Vermutlich verwaiste Gruppe auf dem Server vom fehlgeschlagenen ersten Versuch (
 - Keine neue Testumgebung; getestet wird auf den Handys.
 
 ## Zu klären
-- Firestore-Region und Liste der autorisierten Domains in der Firebase-Konsole von `spieletracker-app` sind nicht dokumentiert. Jakob will sie festhalten: bei Gelegenheit in der Konsole nachsehen und hier eintragen (README nennt `eur3`/`europe-west3` und `jghosting.github.io` nur als Einrichtungsempfehlung).
+- Firestore-Region und Liste der autorisierten Domains in der Firebase-Konsole von `spieletracker-app` sind nicht dokumentiert. Jakob will sie festhalten: bei Gelegenheit in der Konsole nachsehen und hier eintragen (README nennt `eur3`/`europe-west3` und `jakobgreimel.github.io` nur als Einrichtungsempfehlung).
 - Geburtstag von Lotta/Paul ist unbekannt.
 - Lokaler Start per `http.server` ist ein Vorschlag, noch nicht bestätigt.
 

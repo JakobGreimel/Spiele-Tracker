@@ -20,7 +20,7 @@ Läuft komplett ohne Server über GitHub Pages und lässt sich aufs Handy instal
 ## Auf GitHub Pages veröffentlichen
 1. Dateien liegen im Repo-Root.
 2. Im Repo: **Settings → Pages → Source: Deploy from a branch → `main` / `root`** → Save.
-3. Nach ca. 1 Minute läuft die App unter `https://jghosting.github.io/Spiele-Tracker/`.
+3. Nach ca. 1 Minute läuft die App unter `https://jakobgreimel.github.io/Spiele-Tracker/`.
 
 ## Aufs Handy
 - **iPhone (Safari):** Teilen → „Zum Home-Bildschirm“
@@ -45,7 +45,7 @@ Firebase-Projekt kann sich jede Person mit eigenem Konto anmelden.
 3. *Build → Firestore Database → Datenbank erstellen*: Standort **eur3 (Europa)** oder `europe-west3` (Frankfurt), **Produktionsmodus**.
 4. *Firestore → Regeln*: Inhalt von [`firestore.rules`](firestore.rules) komplett einfügen → **Veröffentlichen**.
 5. *Projekteinstellungen (Zahnrad) → Allgemein → Meine Apps → Web (`</>`)*: App registrieren (Hosting nicht nötig), das angezeigte `firebaseConfig`-Objekt kopieren und in [`config.js`](config.js) als `window.FIREBASE_CONFIG = { … };` eintragen.
-6. *Authentication → Einstellungen → Autorisierte Domains*: `jghosting.github.io` hinzufügen.
+6. *Authentication → Einstellungen → Autorisierte Domains*: `jakobgreimel.github.io` hinzufügen.
 
 Die Werte in `config.js` sind nicht geheim, sie benennen nur das Projekt. Geschützt werden die Daten durch Anmeldung und die Sicherheitsregeln.
 
